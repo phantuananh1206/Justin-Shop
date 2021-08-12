@@ -4,6 +4,10 @@
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 
 * {
@@ -58,7 +62,8 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex;
+    /* display: flex; */
+    display: none;
     animation: fadeIn linear 0.1s;
 }
 
